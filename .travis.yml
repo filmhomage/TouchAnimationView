@@ -2,6 +2,7 @@ language: objective-c
 osx_image: xcode8.3
 before_install:
     - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+    - pod install --verbose
     - pod install --project-directory=Example
 before_script:
   - export LANG=en_US.UTF-8
