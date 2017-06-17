@@ -18,10 +18,6 @@ it, simply add the following line to your Podfile:
 pod "TouchAnimationView"
 ```
 
-## Author
-
-filmhomage@hotmail.com
-
 ## License
 
 TouchAnimationView is available under the MIT license. See the LICENSE file for more info.
