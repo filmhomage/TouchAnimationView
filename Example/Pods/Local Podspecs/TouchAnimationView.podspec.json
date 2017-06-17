@@ -14,8 +14,8 @@
     "git": "https://github.com/filmhomage/TouchAnimationView.git",
     "tag": "0.1.0"
   },
+  "source_files": "TouchAnimationView/Classes/**/*",
   "platforms": {
-    "ios": "8.0"
-  },
-  "source_files": "TouchAnimationView/Classes/**/*"
+    "ios": "9.0"
+  }
 }

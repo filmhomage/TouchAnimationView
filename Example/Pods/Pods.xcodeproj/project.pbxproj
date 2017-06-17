@@ -7,19 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		200E83DA80802E86FA107CC7415868BC /* Pods-TouchAnimationView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16065E58E68675BCBFDE9DC1A10F5D0E /* Pods-TouchAnimationView_Tests-dummy.m */; };
-		3AC8DDD891ED848327679E85E49DC7EF /* Pods-TouchAnimationView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE296D2133A4B8C366EB5F19D10BEEF /* Pods-TouchAnimationView_Example-dummy.m */; };
-		40D5319AA978C3612819013C8F08AD87 /* TouchAnimationCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = B01468A7FC0EF57D5A2802611A2CFBE1 /* TouchAnimationCircle.m */; };
-		5DCB7F8A87F43A9F4A3502C6390524C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6B4C017635D18DF7404F214245DBA38B /* TouchAnimationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB018C61EC8A9D9EE0708FECA9C812 /* TouchAnimationView-dummy.m */; };
-		93D9C71EA40FED47A5606288F0B8235C /* TouchAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = D663CBE2C576EA3D203E52E7B028F35B /* TouchAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1259B681DA4D84BD26574ECE14A1FD3B /* TouchAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5576A00BE94A18533D9D2628025109D0 /* TouchAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D67687D219EEC1509474B146F1409B3 /* TouchAnimationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6286A535C7F00F5A8E7A5AD2945869D3 /* TouchAnimationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3255D3B401D03612F7D84A7F41669590 /* TouchAnimationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB2F3FFC72BAD19A5CA21C1F80BEFD2 /* TouchAnimationView-dummy.m */; };
+		3AC8DDD891ED848327679E85E49DC7EF /* Pods-TouchAnimationView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41814822422EEAB8720589E012F0BF02 /* Pods-TouchAnimationView_Example-dummy.m */; };
+		7B1D49D9929DCA6C00EEE611548C224B /* TouchAnimationCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FE1FA785CEA262E6C4265F751D9711 /* TouchAnimationCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0C38E0ED9D7B87FA57A53F9E07AFF57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B5BCCD0DBAD9123C4A4F15EC8A021B3E /* TouchAnimationCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE03431F8E70982E0C62A046EFF6044 /* TouchAnimationCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB5603A7E269F5D42969B32A1DF78A99 /* Pods-TouchAnimationView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E204F44E18A505A35B2557E64BFA57 /* Pods-TouchAnimationView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3D3F83C8BB84A4F8E2A3464CFB9F0E1 /* TouchAnimationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4535CB9623AC00B8A4B9B687E72C2E /* TouchAnimationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0D3677B024E10B7C2231D6D31783AF8 /* TouchAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AB566543481705E53AA3B45A6EBF88 /* TouchAnimationView.m */; };
+		AB5E59D4351EADF7C34307ADDDC305F0 /* TouchAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCABEE1262E79643141C9FF33D9A45D2 /* TouchAnimationView.m */; };
+		CEF8B5E815D42D582FDB58967EBB2BA9 /* TouchAnimationCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 701455DC12D0ED201EFD0FB16786FE87 /* TouchAnimationCircle.m */; };
 		E69E155E399D7DD704C3179B83F8C8C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F175D4714F79F1CA6632CA4313EFDABF /* Pods-TouchAnimationView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF87692D1ABA329F66EA99DC0827B6B /* Pods-TouchAnimationView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F175D4714F79F1CA6632CA4313EFDABF /* Pods-TouchAnimationView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 698E6144F9FB42D8223F4A0584BA5CF4 /* Pods-TouchAnimationView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,41 +30,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02610063961511915A29597606246B8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E7F5612BE8C9B19D7B89A850F48BDE0 /* Pods-TouchAnimationView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchAnimationView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		16065E58E68675BCBFDE9DC1A10F5D0E /* Pods-TouchAnimationView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchAnimationView_Tests-dummy.m"; sourceTree = "<group>"; };
-		1BE03431F8E70982E0C62A046EFF6044 /* TouchAnimationCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TouchAnimationCircle.h; sourceTree = "<group>"; };
-		1D9B255066C2FCD76CDFF84A02ECD5D5 /* Pods-TouchAnimationView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchAnimationView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2BF87692D1ABA329F66EA99DC0827B6B /* Pods-TouchAnimationView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchAnimationView_Example-umbrella.h"; sourceTree = "<group>"; };
-		396446FD2E377735D1037EF55AD96739 /* Pods-TouchAnimationView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TouchAnimationView_Tests.modulemap"; sourceTree = "<group>"; };
-		4035140E7EE5CF495726207F1F3762AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4892B3B2BBACB5724416791B624C3445 /* Pods_TouchAnimationView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouchAnimationView_Tests.framework; path = "Pods-TouchAnimationView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48D083D677B67EF57EEDF12E2FC2C0F1 /* Pods-TouchAnimationView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchAnimationView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4FEAE956F24F9D5C0E02FD5A4DDC4E19 /* Pods-TouchAnimationView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchAnimationView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		588BE09636E3DA31FAF471F38195A075 /* Pods-TouchAnimationView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchAnimationView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		5D75D35D407B7FD795BB2608F4CF4797 /* TouchAnimationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchAnimationView-prefix.pch"; sourceTree = "<group>"; };
+		0F31890C672FCB08A15DB92EB4957243 /* Pods-TouchAnimationView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchAnimationView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1850534667E7D71CC9BAEEE1E7D4888A /* TouchAnimationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchAnimationView-prefix.pch"; sourceTree = "<group>"; };
+		3B0123A828423B6FB3BD07E0017BC38B /* Pods-TouchAnimationView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchAnimationView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E88FA52FA0C13D2D2E8ED56A1894284 /* Pods_TouchAnimationView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouchAnimationView_Example.framework; path = "Pods-TouchAnimationView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41814822422EEAB8720589E012F0BF02 /* Pods-TouchAnimationView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchAnimationView_Example-dummy.m"; sourceTree = "<group>"; };
+		46F619669997D316D704C25B7F5C38C7 /* TouchAnimationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TouchAnimationView.xcconfig; sourceTree = "<group>"; };
+		53BE9360254E2C1DACBDC3AAFDAC7BC7 /* Pods-TouchAnimationView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchAnimationView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5576A00BE94A18533D9D2628025109D0 /* TouchAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TouchAnimationView.h; path = TouchAnimationView/Classes/TouchAnimationView.h; sourceTree = "<group>"; };
+		6286A535C7F00F5A8E7A5AD2945869D3 /* TouchAnimationView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchAnimationView-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6F4535CB9623AC00B8A4B9B687E72C2E /* TouchAnimationView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchAnimationView-umbrella.h"; sourceTree = "<group>"; };
-		7BE296D2133A4B8C366EB5F19D10BEEF /* Pods-TouchAnimationView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchAnimationView_Example-dummy.m"; sourceTree = "<group>"; };
-		82AB566543481705E53AA3B45A6EBF88 /* TouchAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TouchAnimationView.m; sourceTree = "<group>"; };
-		82E204F44E18A505A35B2557E64BFA57 /* Pods-TouchAnimationView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchAnimationView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		86CC7C6121C6CE08D008CA6F3F457FD5 /* Pods-TouchAnimationView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchAnimationView_Tests-resources.sh"; sourceTree = "<group>"; };
-		888DBA6233A50F19B5B2F7942E6B4CF0 /* Pods-TouchAnimationView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchAnimationView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9328F05688718CC3CD212FA5D6A4DE3D /* Pods-TouchAnimationView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchAnimationView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		698E6144F9FB42D8223F4A0584BA5CF4 /* Pods-TouchAnimationView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchAnimationView_Example-umbrella.h"; sourceTree = "<group>"; };
+		701455DC12D0ED201EFD0FB16786FE87 /* TouchAnimationCircle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TouchAnimationCircle.m; path = TouchAnimationView/Classes/TouchAnimationCircle.m; sourceTree = "<group>"; };
+		74172302547852D484790C67C4E20310 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C9AE40FC2739F6BA78B8F900B035803 /* Pods-TouchAnimationView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchAnimationView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8A8D370CFF745A4AD8A16302E14A91B7 /* Pods-TouchAnimationView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TouchAnimationView_Example.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97C183A6546C7923090EF165C10009C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C0D9A295E03C6451B8FE3DC6495364D /* Pods-TouchAnimationView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchAnimationView_Example-resources.sh"; sourceTree = "<group>"; };
-		B01468A7FC0EF57D5A2802611A2CFBE1 /* TouchAnimationCircle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TouchAnimationCircle.m; sourceTree = "<group>"; };
-		B09A9F11D6FB4C37D81B2C5496796345 /* Pods_TouchAnimationView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouchAnimationView_Example.framework; path = "Pods-TouchAnimationView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B295B59D534DEB03862C1CCE27CC5778 /* Pods-TouchAnimationView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TouchAnimationView_Example.modulemap"; sourceTree = "<group>"; };
-		C0695F9772BD0707CEFD650ED426876B /* Pods-TouchAnimationView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchAnimationView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CDBAE3479F087E90C98414748FB65E87 /* TouchAnimationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TouchAnimationView.framework; path = TouchAnimationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3D6E56C891946F252B0686324F86F8A /* TouchAnimationView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TouchAnimationView.modulemap; sourceTree = "<group>"; };
-		D663CBE2C576EA3D203E52E7B028F35B /* TouchAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TouchAnimationView.h; sourceTree = "<group>"; };
-		DD0C85482ED62B0193349CED8848B80C /* Pods-TouchAnimationView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchAnimationView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DEAB018C61EC8A9D9EE0708FECA9C812 /* TouchAnimationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TouchAnimationView-dummy.m"; sourceTree = "<group>"; };
-		DF231D4BD98A60F9A423B272DB923D50 /* TouchAnimationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TouchAnimationView.xcconfig; sourceTree = "<group>"; };
-		F319B5CDF254D11C591BDE18D6E671CB /* Pods-TouchAnimationView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchAnimationView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AE61B2445D75D793584D7B4A361CB81A /* TouchAnimationView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TouchAnimationView.modulemap; sourceTree = "<group>"; };
+		BAD41C0567AD3E1152A291F70B1CF4A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCABEE1262E79643141C9FF33D9A45D2 /* TouchAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TouchAnimationView.m; path = TouchAnimationView/Classes/TouchAnimationView.m; sourceTree = "<group>"; };
+		BFB2F3FFC72BAD19A5CA21C1F80BEFD2 /* TouchAnimationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TouchAnimationView-dummy.m"; sourceTree = "<group>"; };
+		C46131BCBC6FD095FB5863367898D016 /* Pods-TouchAnimationView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchAnimationView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CADFC005902A07FCAD99C88B9D9CB6A2 /* TouchAnimationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TouchAnimationView.framework; path = TouchAnimationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74476938B6B93F8BD2FEA1EDE76590C /* Pods-TouchAnimationView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchAnimationView_Example-resources.sh"; sourceTree = "<group>"; };
+		F1FE1FA785CEA262E6C4265F751D9711 /* TouchAnimationCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TouchAnimationCircle.h; path = TouchAnimationView/Classes/TouchAnimationCircle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,102 +73,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D8EDC88C44E0A035578B9604E222BAE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5DCB7F8A87F43A9F4A3502C6390524C6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1DF8F48CE87772F85EEFBB69CBA117C3 /* Products */ = {
+		4C36363515F9A5532E74E9817A260CA7 /* Pods-TouchAnimationView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				B09A9F11D6FB4C37D81B2C5496796345 /* Pods_TouchAnimationView_Example.framework */,
-				4892B3B2BBACB5724416791B624C3445 /* Pods_TouchAnimationView_Tests.framework */,
-				CDBAE3479F087E90C98414748FB65E87 /* TouchAnimationView.framework */,
+				74172302547852D484790C67C4E20310 /* Info.plist */,
+				8A8D370CFF745A4AD8A16302E14A91B7 /* Pods-TouchAnimationView_Example.modulemap */,
+				0F31890C672FCB08A15DB92EB4957243 /* Pods-TouchAnimationView_Example-acknowledgements.markdown */,
+				3B0123A828423B6FB3BD07E0017BC38B /* Pods-TouchAnimationView_Example-acknowledgements.plist */,
+				41814822422EEAB8720589E012F0BF02 /* Pods-TouchAnimationView_Example-dummy.m */,
+				C46131BCBC6FD095FB5863367898D016 /* Pods-TouchAnimationView_Example-frameworks.sh */,
+				D74476938B6B93F8BD2FEA1EDE76590C /* Pods-TouchAnimationView_Example-resources.sh */,
+				698E6144F9FB42D8223F4A0584BA5CF4 /* Pods-TouchAnimationView_Example-umbrella.h */,
+				53BE9360254E2C1DACBDC3AAFDAC7BC7 /* Pods-TouchAnimationView_Example.debug.xcconfig */,
+				7C9AE40FC2739F6BA78B8F900B035803 /* Pods-TouchAnimationView_Example.release.xcconfig */,
+			);
+			name = "Pods-TouchAnimationView_Example";
+			path = "Target Support Files/Pods-TouchAnimationView_Example";
+			sourceTree = "<group>";
+		};
+		6326A6BE29ACA002AD10939FA874CC40 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAD41C0567AD3E1152A291F70B1CF4A6 /* Info.plist */,
+				AE61B2445D75D793584D7B4A361CB81A /* TouchAnimationView.modulemap */,
+				46F619669997D316D704C25B7F5C38C7 /* TouchAnimationView.xcconfig */,
+				BFB2F3FFC72BAD19A5CA21C1F80BEFD2 /* TouchAnimationView-dummy.m */,
+				1850534667E7D71CC9BAEEE1E7D4888A /* TouchAnimationView-prefix.pch */,
+				6286A535C7F00F5A8E7A5AD2945869D3 /* TouchAnimationView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TouchAnimationView";
+			sourceTree = "<group>";
+		};
+		6699E9C544B0F4673EC500C6696F4D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E88FA52FA0C13D2D2E8ED56A1894284 /* Pods_TouchAnimationView_Example.framework */,
+				CADFC005902A07FCAD99C88B9D9CB6A2 /* TouchAnimationView.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		2B6976AEDE22661CCF21CB9BCD42FFBE /* TouchAnimationView */ = {
-			isa = PBXGroup;
-			children = (
-				C0081010063EECC2C4D6BC76C15B4ED5 /* Support Files */,
-				6B0A44AA05E0B6AE4FA6466EE43A7003 /* TouchAnimationView */,
-			);
-			name = TouchAnimationView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6B0A44AA05E0B6AE4FA6466EE43A7003 /* TouchAnimationView */ = {
-			isa = PBXGroup;
-			children = (
-				8C71ED574BF5179F0F3D31ADFBF6F0D8 /* Classes */,
-			);
-			name = TouchAnimationView;
-			path = TouchAnimationView;
-			sourceTree = "<group>";
-		};
-		6B3A8F9A7CF911A388639234409FA347 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E8842D6B444C0E8DFAB2A953B304FB23 /* Pods-TouchAnimationView_Example */,
-				B74F5E544AB575C102908D298DD13FB0 /* Pods-TouchAnimationView_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B8967B2AEF303F9F100F0BDA149436A1 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				1DF8F48CE87772F85EEFBB69CBA117C3 /* Products */,
-				6B3A8F9A7CF911A388639234409FA347 /* Targets Support Files */,
+				C9B993F9964701FB60AB730C75708E8A /* Pods */,
+				6699E9C544B0F4673EC500C6696F4D88 /* Products */,
+				B4B3E8D7EF56D767561962CFF016A404 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8C71ED574BF5179F0F3D31ADFBF6F0D8 /* Classes */ = {
+		B2C5D1256004AF29A866DC80A4E2731E /* TouchAnimationView */ = {
 			isa = PBXGroup;
 			children = (
-				1BE03431F8E70982E0C62A046EFF6044 /* TouchAnimationCircle.h */,
-				B01468A7FC0EF57D5A2802611A2CFBE1 /* TouchAnimationCircle.m */,
-				D663CBE2C576EA3D203E52E7B028F35B /* TouchAnimationView.h */,
-				82AB566543481705E53AA3B45A6EBF88 /* TouchAnimationView.m */,
+				F1FE1FA785CEA262E6C4265F751D9711 /* TouchAnimationCircle.h */,
+				701455DC12D0ED201EFD0FB16786FE87 /* TouchAnimationCircle.m */,
+				5576A00BE94A18533D9D2628025109D0 /* TouchAnimationView.h */,
+				BCABEE1262E79643141C9FF33D9A45D2 /* TouchAnimationView.m */,
+				6326A6BE29ACA002AD10939FA874CC40 /* Support Files */,
 			);
-			name = Classes;
-			path = Classes;
+			name = TouchAnimationView;
+			path = TouchAnimationView;
 			sourceTree = "<group>";
 		};
-		B74F5E544AB575C102908D298DD13FB0 /* Pods-TouchAnimationView_Tests */ = {
+		B4B3E8D7EF56D767561962CFF016A404 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4035140E7EE5CF495726207F1F3762AF /* Info.plist */,
-				396446FD2E377735D1037EF55AD96739 /* Pods-TouchAnimationView_Tests.modulemap */,
-				9328F05688718CC3CD212FA5D6A4DE3D /* Pods-TouchAnimationView_Tests-acknowledgements.markdown */,
-				48D083D677B67EF57EEDF12E2FC2C0F1 /* Pods-TouchAnimationView_Tests-acknowledgements.plist */,
-				16065E58E68675BCBFDE9DC1A10F5D0E /* Pods-TouchAnimationView_Tests-dummy.m */,
-				588BE09636E3DA31FAF471F38195A075 /* Pods-TouchAnimationView_Tests-frameworks.sh */,
-				86CC7C6121C6CE08D008CA6F3F457FD5 /* Pods-TouchAnimationView_Tests-resources.sh */,
-				82E204F44E18A505A35B2557E64BFA57 /* Pods-TouchAnimationView_Tests-umbrella.h */,
-				0E7F5612BE8C9B19D7B89A850F48BDE0 /* Pods-TouchAnimationView_Tests.debug.xcconfig */,
-				DD0C85482ED62B0193349CED8848B80C /* Pods-TouchAnimationView_Tests.release.xcconfig */,
+				4C36363515F9A5532E74E9817A260CA7 /* Pods-TouchAnimationView_Example */,
 			);
-			name = "Pods-TouchAnimationView_Tests";
-			path = "Target Support Files/Pods-TouchAnimationView_Tests";
-			sourceTree = "<group>";
-		};
-		B8967B2AEF303F9F100F0BDA149436A1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2B6976AEDE22661CCF21CB9BCD42FFBE /* TouchAnimationView */,
-			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -193,18 +157,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C0081010063EECC2C4D6BC76C15B4ED5 /* Support Files */ = {
+		C9B993F9964701FB60AB730C75708E8A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				02610063961511915A29597606246B8D /* Info.plist */,
-				D3D6E56C891946F252B0686324F86F8A /* TouchAnimationView.modulemap */,
-				DF231D4BD98A60F9A423B272DB923D50 /* TouchAnimationView.xcconfig */,
-				DEAB018C61EC8A9D9EE0708FECA9C812 /* TouchAnimationView-dummy.m */,
-				5D75D35D407B7FD795BB2608F4CF4797 /* TouchAnimationView-prefix.pch */,
-				6F4535CB9623AC00B8A4B9B687E72C2E /* TouchAnimationView-umbrella.h */,
+				B2C5D1256004AF29A866DC80A4E2731E /* TouchAnimationView */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TouchAnimationView";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -215,45 +173,9 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E8842D6B444C0E8DFAB2A953B304FB23 /* Pods-TouchAnimationView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				97C183A6546C7923090EF165C10009C1 /* Info.plist */,
-				B295B59D534DEB03862C1CCE27CC5778 /* Pods-TouchAnimationView_Example.modulemap */,
-				888DBA6233A50F19B5B2F7942E6B4CF0 /* Pods-TouchAnimationView_Example-acknowledgements.markdown */,
-				C0695F9772BD0707CEFD650ED426876B /* Pods-TouchAnimationView_Example-acknowledgements.plist */,
-				7BE296D2133A4B8C366EB5F19D10BEEF /* Pods-TouchAnimationView_Example-dummy.m */,
-				4FEAE956F24F9D5C0E02FD5A4DDC4E19 /* Pods-TouchAnimationView_Example-frameworks.sh */,
-				9C0D9A295E03C6451B8FE3DC6495364D /* Pods-TouchAnimationView_Example-resources.sh */,
-				2BF87692D1ABA329F66EA99DC0827B6B /* Pods-TouchAnimationView_Example-umbrella.h */,
-				1D9B255066C2FCD76CDFF84A02ECD5D5 /* Pods-TouchAnimationView_Example.debug.xcconfig */,
-				F319B5CDF254D11C591BDE18D6E671CB /* Pods-TouchAnimationView_Example.release.xcconfig */,
-			);
-			name = "Pods-TouchAnimationView_Example";
-			path = "Target Support Files/Pods-TouchAnimationView_Example";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F2C28B1C5D32893F43FA83993FD366E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5BCCD0DBAD9123C4A4F15EC8A021B3E /* TouchAnimationCircle.h in Headers */,
-				C3D3F83C8BB84A4F8E2A3464CFB9F0E1 /* TouchAnimationView-umbrella.h in Headers */,
-				93D9C71EA40FED47A5606288F0B8235C /* TouchAnimationView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B258B6AF671CF50D15AF0C7BFBAB206A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB5603A7E269F5D42969B32A1DF78A99 /* Pods-TouchAnimationView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BB95B06AB4E385FC99D9F456BBC8128D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,26 +184,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9AFC3F62677241F63A29EC6EC5D0951 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1D49D9929DCA6C00EEE611548C224B /* TouchAnimationCircle.h in Headers */,
+				2D67687D219EEC1509474B146F1409B3 /* TouchAnimationView-umbrella.h in Headers */,
+				1259B681DA4D84BD26574ECE14A1FD3B /* TouchAnimationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		58FC5909E1AD5A01E69A3E2C6A154235 /* Pods-TouchAnimationView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 512DEB60A741BC71C74B9090705BBDA3 /* Build configuration list for PBXNativeTarget "Pods-TouchAnimationView_Tests" */;
-			buildPhases = (
-				08087D25B316076E603332FEC4B258D4 /* Sources */,
-				5D8EDC88C44E0A035578B9604E222BAE /* Frameworks */,
-				B258B6AF671CF50D15AF0C7BFBAB206A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TouchAnimationView_Tests";
-			productName = "Pods-TouchAnimationView_Tests";
-			productReference = 4892B3B2BBACB5724416791B624C3445 /* Pods_TouchAnimationView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		8D043C6D6B8AAC13305D480FCF1A9B5C /* Pods-TouchAnimationView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0F5101BDEDBCCF445BB8F5B348FBBC9 /* Build configuration list for PBXNativeTarget "Pods-TouchAnimationView_Example" */;
@@ -297,16 +212,16 @@
 			);
 			name = "Pods-TouchAnimationView_Example";
 			productName = "Pods-TouchAnimationView_Example";
-			productReference = B09A9F11D6FB4C37D81B2C5496796345 /* Pods_TouchAnimationView_Example.framework */;
+			productReference = 3E88FA52FA0C13D2D2E8ED56A1894284 /* Pods_TouchAnimationView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9A924A4F8F08853A77BF7B1564F93F23 /* TouchAnimationView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4DABBC2D03393491AD85CCBAD60966C /* Build configuration list for PBXNativeTarget "TouchAnimationView" */;
 			buildPhases = (
-				1B4E13BD5185F0BB1DAE8C54927DC020 /* Sources */,
+				B2AF0E7565647A312B2A05AC16367407 /* Sources */,
 				0F8F6BABD816C38FDCB2683F8EF5D8D0 /* Frameworks */,
-				0F2C28B1C5D32893F43FA83993FD366E /* Headers */,
+				D9AFC3F62677241F63A29EC6EC5D0951 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -314,7 +229,7 @@
 			);
 			name = TouchAnimationView;
 			productName = TouchAnimationView;
-			productReference = CDBAE3479F087E90C98414748FB65E87 /* TouchAnimationView.framework */;
+			productReference = CADFC005902A07FCAD99C88B9D9CB6A2 /* TouchAnimationView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -334,33 +249,24 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1DF8F48CE87772F85EEFBB69CBA117C3 /* Products */;
+			productRefGroup = 6699E9C544B0F4673EC500C6696F4D88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8D043C6D6B8AAC13305D480FCF1A9B5C /* Pods-TouchAnimationView_Example */,
-				58FC5909E1AD5A01E69A3E2C6A154235 /* Pods-TouchAnimationView_Tests */,
 				9A924A4F8F08853A77BF7B1564F93F23 /* TouchAnimationView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08087D25B316076E603332FEC4B258D4 /* Sources */ = {
+		B2AF0E7565647A312B2A05AC16367407 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				200E83DA80802E86FA107CC7415868BC /* Pods-TouchAnimationView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1B4E13BD5185F0BB1DAE8C54927DC020 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40D5319AA978C3612819013C8F08AD87 /* TouchAnimationCircle.m in Sources */,
-				6B4C017635D18DF7404F214245DBA38B /* TouchAnimationView-dummy.m in Sources */,
-				D0D3677B024E10B7C2231D6D31783AF8 /* TouchAnimationView.m in Sources */,
+				CEF8B5E815D42D582FDB58967EBB2BA9 /* TouchAnimationCircle.m in Sources */,
+				3255D3B401D03612F7D84A7F41669590 /* TouchAnimationView-dummy.m in Sources */,
+				AB5E59D4351EADF7C34307ADDDC305F0 /* TouchAnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +336,7 @@
 		};
 		45D8ECD0C13D57909A0CDD7A9C0DADF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D9B255066C2FCD76CDFF84A02ECD5D5 /* Pods-TouchAnimationView_Example.debug.xcconfig */;
+			baseConfigurationReference = 53BE9360254E2C1DACBDC3AAFDAC7BC7 /* Pods-TouchAnimationView_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -464,45 +370,9 @@
 			};
 			name = Debug;
 		};
-		54CA4E1681EFF518059AD3D04406709B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD0C85482ED62B0193349CED8848B80C /* Pods-TouchAnimationView_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TouchAnimationView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TouchAnimationView_Tests/Pods-TouchAnimationView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TouchAnimationView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		87B5D6435D420AA7A0C6492C93B11C24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF231D4BD98A60F9A423B272DB923D50 /* TouchAnimationView.xcconfig */;
+			baseConfigurationReference = 46F619669997D316D704C25B7F5C38C7 /* TouchAnimationView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -532,45 +402,9 @@
 			};
 			name = Debug;
 		};
-		B55ECD864127BF4FEC07267AB59E9216 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E7F5612BE8C9B19D7B89A850F48BDE0 /* Pods-TouchAnimationView_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TouchAnimationView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TouchAnimationView_Tests/Pods-TouchAnimationView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TouchAnimationView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		BB602B39CA7AA92E157126A051CAA91D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF231D4BD98A60F9A423B272DB923D50 /* TouchAnimationView.xcconfig */;
+			baseConfigurationReference = 46F619669997D316D704C25B7F5C38C7 /* TouchAnimationView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -650,7 +484,7 @@
 		};
 		EE6A3E20422B4D0A90C3B0B82AD90FDF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F319B5CDF254D11C591BDE18D6E671CB /* Pods-TouchAnimationView_Example.release.xcconfig */;
+			baseConfigurationReference = 7C9AE40FC2739F6BA78B8F900B035803 /* Pods-TouchAnimationView_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -692,15 +526,6 @@
 			buildConfigurations = (
 				C104F7F091290C3D1E248192F07FE689 /* Debug */,
 				34FE9531DA9AF2820790339988D5FF41 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		512DEB60A741BC71C74B9090705BBDA3 /* Build configuration list for PBXNativeTarget "Pods-TouchAnimationView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B55ECD864127BF4FEC07267AB59E9216 /* Debug */,
-				54CA4E1681EFF518059AD3D04406709B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
