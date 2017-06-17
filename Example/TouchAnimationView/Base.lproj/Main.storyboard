@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="TAViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1" customClass="TouchAnimationView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cmg-lj-KUl">
+                                <rect key="frame" x="16" y="26" width="343" height="170"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q9w-Ou-czS" userLabel="View  - Top Margin View">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="0.0"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Typing Animation View" translatesAutoresizingMaskIntoConstraints="NO" id="ghI-4a-YTl" userLabel="TextView - Typing Animation View">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="60"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="6zN-UR-Klu"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="whP-gf-Uak" id="mVX-ii-A9d"/>
+                                        </connections>
+                                    </textView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SYw-3l-RzM">
+                                        <rect key="frame" x="0.0" y="60" width="343" height="10"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="10" id="Pcs-Ke-Y7p"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Typing Animatioin TextField" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RgX-yz-Xes">
+                                        <rect key="frame" x="0.0" y="70" width="343" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="AXV-qs-LCe"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="whP-gf-Uak" id="H31-3w-Y6Q"/>
+                                        </connections>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wN0-2k-EAR" userLabel="View - Center Margin View">
+                                        <rect key="frame" x="0.0" y="100" width="343" height="10"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="10" id="iC9-2h-hSx"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0o1-xO-QNX" userLabel="Button - Touch Animation Button">
+                                        <rect key="frame" x="0.0" y="110" width="343" height="60"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="qzw-x0-j2j"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <state key="normal" title="Touch Animation Button">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonTouchDown:forEvent:" destination="whP-gf-Uak" eventType="touchUpInside" id="ZvS-1B-wdd"/>
+                                            <action selector="buttonTouchUpInside:forEvent:" destination="whP-gf-Uak" eventType="touchDown" id="eVR-ch-tMw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ghI-4a-YTl" firstAttribute="top" secondItem="cmg-lj-KUl" secondAttribute="top" id="KFH-Fk-qVw"/>
+                                    <constraint firstItem="RgX-yz-Xes" firstAttribute="leading" secondItem="cmg-lj-KUl" secondAttribute="leading" id="Le8-kR-uzy"/>
+                                    <constraint firstAttribute="trailing" secondItem="ghI-4a-YTl" secondAttribute="trailing" id="aAp-o8-Fbk"/>
+                                    <constraint firstAttribute="trailing" secondItem="RgX-yz-Xes" secondAttribute="trailing" id="h2Y-4y-a1x"/>
+                                    <constraint firstItem="ghI-4a-YTl" firstAttribute="leading" secondItem="cmg-lj-KUl" secondAttribute="leading" id="q0n-fV-7KD"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cmg-lj-KUl" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="16" id="9sH-di-1eX"/>
+                            <constraint firstItem="cmg-lj-KUl" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="Gf5-kC-4oV"/>
+                            <constraint firstItem="cmg-lj-KUl" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="6" id="WXf-Gy-k5z"/>
+                            <constraint firstAttribute="trailing" secondItem="cmg-lj-KUl" secondAttribute="trailing" constant="16" id="hTo-q1-2RQ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="controlOnly" value="YES"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="type" value="ZoomOut"/>
+                            <userDefinedRuntimeAttribute type="color" keyPath="colorText">
+                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="size">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="0o1-xO-QNX" id="wzH-eg-3PR"/>
+                        <outlet property="touchAnimationView" destination="TpU-gO-2f1" id="Inu-Si-aHl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303.19999999999999" y="432.23388305847078"/>
+        </scene>
+    </scenes>
+</document>

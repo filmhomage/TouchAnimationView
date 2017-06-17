@@ -1,0 +1,16 @@
+PODS:
+  - TouchAnimationView (0.1.0)
+
+DEPENDENCIES:
+  - TouchAnimationView (from `../`)
+
+EXTERNAL SOURCES:
+  TouchAnimationView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TouchAnimationView: 6bd723d80bb3e42403f2bced03ca90bbe9bc3de0
+
+PODFILE CHECKSUM: fb5fcf0c857bcbad44726d004e2640c15897c684
+
+COCOAPODS: 1.2.1

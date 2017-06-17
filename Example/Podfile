@@ -1,0 +1,13 @@
+
+platform :ios, '8.0'
+
+use_frameworks!
+
+target 'TouchAnimationView_Example' do
+  pod 'TouchAnimationView', :path => '../'
+
+  target 'TouchAnimationView_Tests' do
+    inherit! :search_paths
+
+  end
+end

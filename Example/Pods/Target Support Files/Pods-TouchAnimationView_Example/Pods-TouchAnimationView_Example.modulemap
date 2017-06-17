@@ -1,0 +1,6 @@
+framework module Pods_TouchAnimationView_Example {
+  umbrella header "Pods-TouchAnimationView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
