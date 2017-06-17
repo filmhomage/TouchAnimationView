@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Jonghyun Kim' => 'filmhomage@hotmail.com' }
   s.source           = { :git => 'https://github.com/filmhomage/TouchAnimationView.git', :tag => s.version.to_s }
   s.source_files     = 'TouchAnimationView/Classes/**/*'
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
