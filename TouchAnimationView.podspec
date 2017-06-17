@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TouchAnimationView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Beautiful Touch Animation View.'
   s.homepage         = 'https://github.com/filmhomage/TouchAnimationView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
