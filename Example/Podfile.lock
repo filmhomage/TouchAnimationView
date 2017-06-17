@@ -1,11 +1,11 @@
 PODS:
-  - TouchAnimationView (0.1.0)
+  - TouchAnimationView (0.1.1)
 
 DEPENDENCIES:
   - TouchAnimationView
 
 SPEC CHECKSUMS:
-  TouchAnimationView: 027bdbf9fe91ad611a3e402ab56cdcde73a6d800
+  TouchAnimationView: b6677bd426be6467ef754c49454a999e2e002cf3
 
 PODFILE CHECKSUM: 864fcbb62fb75172599198d8e6a7f68aac6aa52e
 
