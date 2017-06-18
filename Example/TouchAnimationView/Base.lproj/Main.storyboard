@@ -16,18 +16,18 @@
                         <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1" customClass="TouchAnimationView">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="TpU-gO-2f1" customClass="TouchAnimationView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cmg-lj-KUl">
-                                <rect key="frame" x="16" y="26" width="343" height="170"/>
+                                <rect key="frame" x="16" y="120" width="343" height="170"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q9w-Ou-czS" userLabel="View  - Top Margin View">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="0.0"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Typing Animation View" translatesAutoresizingMaskIntoConstraints="NO" id="ghI-4a-YTl" userLabel="TextView - Typing Animation View">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="TextView " translatesAutoresizingMaskIntoConstraints="NO" id="ghI-4a-YTl" userLabel="TextView - Typing Animation View">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="60"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <constraints>
@@ -47,7 +47,7 @@
                                             <constraint firstAttribute="height" constant="10" id="Pcs-Ke-Y7p"/>
                                         </constraints>
                                     </view>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Typing Animatioin TextField" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RgX-yz-Xes">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="TextField" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RgX-yz-Xes">
                                         <rect key="frame" x="0.0" y="70" width="343" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="AXV-qs-LCe"/>
@@ -73,7 +73,7 @@
                                             <constraint firstAttribute="height" constant="60" id="qzw-x0-j2j"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <state key="normal" title="Touch Animation Button">
+                                        <state key="normal" title="Button Touch Animation ">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
@@ -95,11 +95,11 @@
                         <constraints>
                             <constraint firstItem="cmg-lj-KUl" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="16" id="9sH-di-1eX"/>
                             <constraint firstItem="cmg-lj-KUl" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="Gf5-kC-4oV"/>
-                            <constraint firstItem="cmg-lj-KUl" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="6" id="WXf-Gy-k5z"/>
+                            <constraint firstItem="cmg-lj-KUl" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="100" id="WXf-Gy-k5z"/>
                             <constraint firstAttribute="trailing" secondItem="cmg-lj-KUl" secondAttribute="trailing" constant="16" id="hTo-q1-2RQ"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="controlOnly" value="YES"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="controlOnly" value="NO"/>
                             <userDefinedRuntimeAttribute type="string" keyPath="type" value="ZoomOut"/>
                             <userDefinedRuntimeAttribute type="color" keyPath="colorText">
                                 <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
