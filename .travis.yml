@@ -6,6 +6,6 @@ before_install:
     - pod install --project-directory=Example
 before_script:
   - export LANG=en_US.UTF-8
-xcode_workspace: car2go_sample.xcworkspace  
+xcode_workspace: Example/TouchAnimationView.xcworkspace  
 script:
 - pod lib lint
