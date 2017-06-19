@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/TouchAnimationView.svg?style=flat)](http://cocoapods.org/pods/TouchAnimationView)
 [![Platform](https://img.shields.io/cocoapods/p/TouchAnimationView.svg?style=flat)](http://cocoapods.org/pods/TouchAnimationView)
 
+
+![touchanimationview mov](https://user-images.githubusercontent.com/4126751/27257112-271bbc08-53cb-11e7-8fe7-5af40c9cf96d.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
