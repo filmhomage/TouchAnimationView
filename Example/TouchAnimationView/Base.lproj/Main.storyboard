@@ -99,14 +99,30 @@
                             <constraint firstAttribute="trailing" secondItem="cmg-lj-KUl" secondAttribute="trailing" constant="16" id="hTo-q1-2RQ"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="controlOnly" value="NO"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="controlOnly" value="YES"/>
                             <userDefinedRuntimeAttribute type="string" keyPath="type" value="ZoomOut"/>
                             <userDefinedRuntimeAttribute type="color" keyPath="colorText">
-                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="number" keyPath="size">
                                 <real key="value" value="10"/>
                             </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                <real key="value" value="0.10000000000000001"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="alphaStart">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="alphaEnd">
+                                <real key="value" value="0.29999999999999999"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                <color key="value" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="string" keyPath="AnimationType" value="ZoomIn"/>
                         </userDefinedRuntimeAttributes>
                     </view>
                     <connections>
