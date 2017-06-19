@@ -1,4 +1,4 @@
-# TouchAnimationView
+# Touch Animation View
 
 [![Build Status](https://travis-ci.org/filmhomage/TouchAnimationView.svg?branch=master)](https://travis-ci.org/filmhomage/TouchAnimationView)
 [![Version](https://img.shields.io/cocoapods/v/TouchAnimationView.svg?style=flat)](http://cocoapods.org/pods/TouchAnimationView)
